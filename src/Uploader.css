@@ -1,0 +1,34 @@
+.uploader{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    padding:20px;
+}
+.progressbar{
+    width:100%;
+    margin-bottom: 10px;
+    border:1px solid white;
+    background-color: #ec5e6f;
+}
+.uploader input{
+    outline: none;
+    border:1px solid lightblue;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.uploader button{
+    padding:5px 0px 5px 0px;
+    font-weight: bolder;
+    background-color: #ec5e6f;
+    outline: none;
+    color:white;
+    cursor: pointer;
+    border:2px solid #ec5e6f;
+    font-size: 15px;
+    border-radius: 5px;
+}
